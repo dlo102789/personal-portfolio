@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4de4c389.css",
+    "main.js": "/static/js/main.86689bf3.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/personal-blog.png": "/static/media/personal-blog.f92db581bbebd3c2d1a6.png",
+    "static/media/fresenius-kabi.jpg": "/static/media/fresenius-kabi.6a102e3342564cdaf461.jpg",
+    "static/media/hiking.jpg": "/static/media/hiking.0b10fc2dbb6347439204.jpg",
+    "static/media/Linkedin_image-modified.png": "/static/media/Linkedin_image-modified.69573e2fdf4549aed5f7.png",
+    "static/media/chat-app.png": "/static/media/chat-app.205c27071791e2eb9b01.png",
+    "index.html": "/index.html",
+    "main.4de4c389.css.map": "/static/css/main.4de4c389.css.map",
+    "main.86689bf3.js.map": "/static/js/main.86689bf3.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4de4c389.css",
+    "static/js/main.86689bf3.js"
+  ]
+}
