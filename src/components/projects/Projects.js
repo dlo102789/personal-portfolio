@@ -14,6 +14,7 @@ import {
 } from '@mui/material'
 const blog = require('./personal-blog.png')
 const chatApp = require('./chat-app.png')
+const portfolio = require('./portfolio.png')
 
 const Projects = () => {
   return (
@@ -174,7 +175,7 @@ const Projects = () => {
               <Link href="https://github.com/dlo102789/Bleep">
                 <Button
                   variant='contained'
-                  className='blogButton'
+                  className='chatButton'
                   sx={{
                     borderRadius: '16px',
                     backgroundColor: '#404040',
@@ -221,7 +222,7 @@ const Projects = () => {
               <Link href="https://github.com/dlo102789/Bleep">
                 <Button
                   variant='contained'
-                  className='blogButton'
+                  className='chatButton'
                   sx={{
                     borderRadius: '16px',
                     backgroundColor: '#404040',
@@ -234,7 +235,96 @@ const Projects = () => {
             </CardActions>
           </Card>
         </Grid>
-        
+        <Grid
+          item
+          xs={12}
+          md={12}
+          align='center'
+        >
+          <Card
+            elevation={5}
+            sx={{
+              backgroundColor:'white', 
+              width: '60%', 
+              minHeight: 500,
+              mb:5,
+              mt:3,
+              px:1,
+              pb:2,
+              display:{xs:'none', md: 'block'}
+            }}
+          >
+            <CardHeader
+              title='This Site!'
+              subheader='This site is a portfolio built on ReactJS'
+            />
+            <CardMedia
+              component='img'
+              height='570'
+              image={portfolio}
+            />
+            <CardContent align='left'>
+              This portfolio was built using NodeJS, ReactJS and was
+              hosted on Heroku. MUI was used for styling.
+            </CardContent>
+            <CardActions>
+              <Link href="https://github.com/dlo102789/personal-portfolio">
+                <Button
+                  variant='contained'
+                  className='portfolioButton'
+                  sx={{
+                    borderRadius: '16px',
+                    backgroundColor: '#404040',
+                    color: 'white',
+                  }}
+                >
+                  View Source Code
+                </Button>
+              </Link>
+            </CardActions>
+          </Card>
+          <Card
+            elevation={5}
+            sx={{
+              backgroundColor:'white', 
+              width: '90%', 
+              minHeight: 520,
+              mb:5,
+              mt:3,
+              p:1,
+              display: {xs: 'block', md: 'none'}
+            }}
+          >
+            <CardHeader
+              title='This Site!'
+              subheader='This site is a portfolio built on ReactJS'
+            />
+            <CardMedia
+              component='img'
+              height='300'
+              image={chatApp}
+            />
+            <CardContent align='left'>
+              This portfolio was built using NodeJS, ReactJS and was
+              hosted on Heroku. MUI was used for styling.
+            </CardContent>
+            <CardActions>
+              <Link href="https://github.com/dlo102789/personal-portfolio">
+                <Button
+                  variant='contained'
+                  className='portfolioButton'
+                  sx={{
+                    borderRadius: '16px',
+                    backgroundColor: '#404040',
+                    color: 'white',
+                  }}
+                >
+                  View Source Code
+                </Button>
+              </Link>
+            </CardActions>
+          </Card>
+        </Grid>
       </Grid>
     </Layout>
   )
