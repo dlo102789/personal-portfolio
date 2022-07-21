@@ -10,7 +10,7 @@ import {
 } from '@mui/material'
 import {Download as DownloadIcon} from '@mui/icons-material'
 import { Document, Page} from 'react-pdf';
-import ResumePDF from './DerekLo_Resume.pdf'
+import ResumePDF from './Derek Lo - Resume.pdf'
 
 const Resume = () => {
 
